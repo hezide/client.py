@@ -33,7 +33,7 @@ dependencies = [
     "defusedxml>=0.7.1",
     "orjson>=3.11.3",
 ]
-version = "0.0.0"
+version = "18.5.1"
 
 [project.urls]
 "Homepage" = "https://deebot.readthedocs.io/"
