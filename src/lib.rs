@@ -1,3 +1,6 @@
+// pyo3's from_py_object codegen trips this lint on newer clippy, not our code
+#![allow(clippy::clone_on_copy)]
+
 use pyo3::prelude::*;
 
 mod map;

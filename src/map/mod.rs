@@ -122,7 +122,6 @@ impl PositionType {
     }
 }
 
-#[allow(clippy::clone_on_copy)] // pyo3's from_py_object codegen, not our code
 #[pyclass(from_py_object, eq, eq_int, frozen, hash)]
 #[derive(Default, PartialEq, Debug, Clone, Copy, Hash)]
 pub(super) enum RotationAngle {
